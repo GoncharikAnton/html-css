@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'silkscreen';
+    src: url("/font/Silkscreen-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#logo{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+}
+header nav{
+    flex-grow: 1;
+}
+header ul{
+    list-style: none;
+}
+header ul li{
+    display: flex;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+}
+header ul li:hover {
+    background-color: gray;
+}
+header ul a{
+    text-decoration: none;
+    color: black;
+}
+/*header ul a:hover{*/
+/*    color: gray;*/
+/*}*/
