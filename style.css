@@ -135,7 +135,7 @@ footer div{
 .external-link{
     color: crimson;
     padding-right: 25px;
-    background: url("/images/External_link_font_awesome.svg.png") right / 20px no-repeat;
+    background: url("/html-css/images/External_link_font_awesome.svg.png") right / 20px no-repeat;
 }
 .external-link:hover{
     color: gray;
