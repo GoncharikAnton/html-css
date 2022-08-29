@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'silkscreen';
-    src: url("/font/Silkscreen-Regular.ttf");
+    src: url("/html-css/font/Silkscreen-Regular.ttf");
 }
 *{
     box-sizing: border-box;
