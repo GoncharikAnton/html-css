@@ -30,30 +30,72 @@
          id="face">
 
     <h2>Hi, my name is Anton.</h2>
-
-    <span class="bold par">In this studying project</span> I'd want to show my skill in CSS, but also I'd want to tell you a bit about Pixel Art
-    and its significance in history. This story will not take a long time, but hopefully you'll enjoy it!
+    <p>
+        <span class="bold par">In this studying project</span> I'd want to show my skill in CSS, but also I'd want to
+        tell you a bit about Pixel Art
+        and its significance in history. This story will not take a long time, but hopefully you'll enjoy it!
+    </p>
 
     <h3>The pixel is an amazing thing.</h3>
     <p>
-        <span class="bold par">It is how</span> you’re reading the text on this screen right now. It’s a unit of measurement. And for some creative
+        <span class="bold par">It is how</span> you’re reading the text on this screen right now. It’s a unit of
+        measurement. And for some creative
         folks, it’s a way to make art. Pixel art is a type of digital art that looks like it was intentionally created
         with the placement of pixels. Each block is a brushstroke; and, together, the bunches of pixels make a whole
         piece. In this way, pixel art has a mosaic-like quality to it. Many mosaics create images of tiny squares
         similar to the blockiness that’s inherent in pixel art.
     </p>
     <p>
-        <span class="bold par">In the early days</span> of computers, the hard edges of pixel art were the only type of computer art that you could
+        <span class="bold par">In the early days</span> of computers, the hard edges of pixel art were the only type of
+        computer art that you could
         make. Technology wasn’t advanced enough to create the anti-aliasing that we’re used to now. But as computer
         graphics continue to become more and more lifelike, pixel art now references a retro style and a callback to
         those early computer graphics.
     </p>
     <p>
-        <span class="bold par"><a href="/history.html" class="external-link">Read on</a></span> to learn more about pixel art—its history, its waxing and waning in popularity, and how you can make
+        <span class="bold par"><a href="/history.html" class="external-link">Read on</a></span> to learn more about
+        pixel art—its history, its waxing and waning in popularity, and how you can make
         your own.
 
     </p>
-    <p> To full story -> <span class="full"><a href="/history.html">read on</a></span></p>
+    <p> To full story -> <span class="full"><a href="/history.html" style="color: black">read on</a></span></p>
+
+    <div id="contact-form">
+        <h2>If you have some questions or suggestions, just please, contact me!</h2>
+        <form action="#" method="get">
+
+            <div>
+                <label class="text-input-label" for="name">Enter your name:</label>
+                <input class='text-input' type="text" id="name" name="name" required minlength=3>
+            </div>
+            <div>
+                <label  class="text-input-label" for="email">Enter your e-mail:</label>
+                <input class='text-input' type="email" id="email" name="email" required minlength="5">
+            </div>
+            <div>
+                <label class="text-input-label" for="address">Enter your address:</label>
+                <input class='text-input' type="text" id="address" name="address">
+            </div>
+            <div>
+                <label class="text-input-label" for="msg">Enter your message:</label>
+                <textarea class='text-input' id="msg" required></textarea>
+            </div>
+            <div>
+                <p>Do you like my web-site?</p>
+                <label for="like">Yes</label>
+                <input type="radio" id="like" name="yes">
+                <label for="like2">Absolutely!</label>
+                <input type="radio" id="like2" name="yes">
+                <label for="like">Absolutely yes!</label>
+                <input type="radio" id="like3" name="yes">
+                <label for="like">AWESOME!</label>
+                <input type="radio" id="like4" name="yes">
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
 </main>
 <footer>
     <div>
